@@ -1,0 +1,21 @@
+
+
+@channel, as promised, here's your optional assignment to prepare 
+yourself for Monday:
+You are tasked with designing and implementing a fully functional 
+Digital Wallet Platform using HTML, CSS, JavaScript, PHP, and MySQL. 
+Your project should demonstrate smoth integration between the 
+frontend and backend. 
+You will below the list of requirements that define this project:
+
+Account Creation: Users must be able to register using email address.
+Profile Management: Users should have access to view and update 
+personal information (name, address, contact info).
+Account Limits: Define daily transaction limits.
+Deposit & Withdrawal: Processes for loading funds into the wallet
+and withdrawing.
+Transaction History & Statements: Users must be able to view or 
+download detailed transaction history (filter by date, type 
+(deposit / withdraw), etc.).
+
+Make sure you push your commits to GitHub regularly (atomic commits)
