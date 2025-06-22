@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SwiftWallet</title>
-    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 
 <body>
@@ -15,11 +15,13 @@
     </div>
 
     <div class="register-container">
-        <form action="register.php" method="POST">
-            Name: <input type="text" name="name"><br>
+        <form action="../php/register.php" method="POST">
+            FirstName: <input type="text" name="fname"><br>
+            LastName: <input type="text" name="lname"><br>
             E-mail: <input type="text" name="email"><br>
             Address: <input type="text" name="address"><br>
             Phone Number: <input type="text" name="phone-nb"><br>
+            Password: <input type="password" name="password"><br>
             <input type="submit">
         </form>
     </div>
