@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
