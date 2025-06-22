@@ -28,7 +28,14 @@ if (!isset($_SESSION['user_id'])) {
     <div class="content">
         <p>Welcome, <?= $_SESSION['first_name'] ?>!</p>
         <p>Your balance: $<?= $_SESSION['balance'] ?></p>
+
         <!-- Add deposit, withdraw, and transaction options here -->
+
+        <form action="deposit.php" method="POST">
+            Deposit: <input type="number" name="amount"><br>
+            <button type="submit">Add deposit</button>
+        </form>
+
     </div>
 
 
